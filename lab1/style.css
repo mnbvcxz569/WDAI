@@ -1,0 +1,24 @@
+html {
+  background-color: #ddbeaa;
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.tytul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.lista_cwiczen {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.lista_cwiczen li {
+  margin-bottom: 15px;
+}
