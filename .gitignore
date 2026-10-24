@@ -1,0 +1,24 @@
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pliki tymczasowe
+*.tmp
+*.log
+*.bak
+
+# Ustawienia edytorów
+.vscode/
+.idea/
+
+# Pliki środowiskowe
+.env
+.env.local
+
+# Zależności Node.js 
+node_modules/
+
+# Foldery wygenerowane podczas budowania projektu
+dist/
+build/
