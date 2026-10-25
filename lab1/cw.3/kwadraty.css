@@ -1,0 +1,45 @@
+.pierwszy_wiersz {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.kwadrat1 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+
+.kwadrat2 {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+}
+
+.drugi_wiersz {
+  display: flex;
+  gap: 10px;
+}
+
+.kwadrat3 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.kwadrat4 {
+  width: 100px;
+  height: 100px;
+}
+
+.kwadrat4 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.kwadrat5 {
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+}
