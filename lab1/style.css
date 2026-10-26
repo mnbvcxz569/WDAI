@@ -22,3 +22,15 @@ body {
 .lista_cwiczen li {
   margin-bottom: 15px;
 }
+
+.link1 {
+  color: green;
+}
+
+.link2 {
+  color: red;
+}
+
+.link3 {
+  color: purple;
+}
