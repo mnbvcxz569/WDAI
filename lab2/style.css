@@ -1,36 +1,116 @@
 html {
-  background-color: #ddbeaa;
+  background-color: #49320e;
   height: 100vh;
 }
 
 body {
-  height: 100vh;
+  font-family: "Oswald";
   margin: 0;
 }
 
-.tytul {
+.title {
+  background-color: #5e0006;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: #eed9b9;
+  height: 10vh;
   display: flex;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+}
+.title h1 {
+  margin: 0;
+}
+
+.navigation_bar {
+  background-color: #d53e0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  gap: 20px;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.navigation_bar a {
+  color: #200003;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: #9b0f06;
+}
+
+.footer p {
+  color: #f1dcbd;
+}
+
+.homepage {
+  padding: 20px;
+}
+
+.homepage h1 {
+  display: flex;
   justify-content: center;
 }
-.lista_cwiczen {
+
+.movie_list h1 {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  background-color: #86010a;
+  color: #eed9b9;
+  font-size: 36px;
+}
+
+.image {
+  width: 200px;
+  height: 275px;
+  object-fit: fill;
+  border: #0c0001 solid 3px;
+  border-radius: 15px;
+}
+
+.movie p {
+  width: 100%;
+  text-align: justify;
+  color: #440501;
+}
+
+.movie {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+  border: 3px double;
+  border-color: #0c0001;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f1dcbd;
+  border-width: 15px;
 }
 
-.lista_cwiczen li {
-  margin-bottom: 15px;
+.movie h3 {
+  align-items: center;
+  font-weight: 700;
+  font-size: 23px;
+  color: #f1dcbd;
+  background-color: #440501;
+  border-radius: 5px;
+  padding: 7px;
 }
 
-.link1 {
-  color: green;
-}
-
-.link2 {
-  color: red;
-}
-
-.link3 {
-  color: purple;
+.movie_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  background-color: #440501;
+  border-radius: 20px;
+  padding-bottom: 30px;
 }
