@@ -1,5 +1,5 @@
 html {
-  background-color: #49320e;
+  background-color: #86010a;
   height: 100vh;
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .navigation_bar {
-  background-color: #d53e0f;
+  background: linear-gradient(to bottom, transparent 0%, #86010a 100%), #d53e0f;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,17 +64,12 @@ body {
 }
 
 .homepage h1 {
-  display: flex;
-  justify-content: center;
-}
-
-.movie_list h1 {
-  width: 100%;
+  color: #f1dcbd;
   text-align: center;
-  padding: 5px;
-  background-color: #86010a;
-  color: #eed9b9;
+  width: 100%;
   font-size: 36px;
+  background-color: #440501;
+  border-radius: 10px;
 }
 
 .image {
@@ -123,4 +118,21 @@ body {
   background-color: #440501;
   border-radius: 20px;
   padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.movie a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #440501;
+  color: #f1dcbd;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.movie a:last-child {
+  margin-top: auto;
 }
