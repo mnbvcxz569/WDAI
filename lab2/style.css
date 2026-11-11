@@ -13,15 +13,17 @@ body {
     linear-gradient(to bottom, transparent 0%, #d53e0f 100%),
     url("https://substackcdn.com/image/fetch/$s_!MxGF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c9616d8-9764-4f2b-a5d8-3f50883909f1_676x380.jpeg");
   color: #eed9b9;
-  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 80px;
+  height: auto;
+  padding: 10px;
 }
 .title h1 {
   margin: 0;
   background-color: #440501;
-  font-size: 50px;
+  font-size: clamp(24px, 5vw, 50px);
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -34,14 +36,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8vh;
+  flex-wrap: wrap;
+  min-height: 60px;
+  height: auto;
   gap: 20px;
+  padding: 10px;
   font-size: 22px;
   font-weight: 550;
 }
 
 .navigation_bar a {
-  font-size: 20px;
+  font-size: clamp(14px, 2vw, 20px);
   color: #eed9b9;
   text-decoration: none;
   background-color: #440501;
