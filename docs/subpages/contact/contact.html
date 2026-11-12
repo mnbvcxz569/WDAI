@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini projekt WDAI</title>
+    <link rel="stylesheet" href="./contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="contact.js" defer></script>
+  </head>
+
+  <body>
+    <header class="title">
+      <h1><b>Movie Tracker</b></h1>
+    </header>
+
+    <nav class="navigation_bar">
+      <a href="../../index.html">🏠 <b>Strona główna</b></a>
+      <a href="../gallery/gallery.html">🏞️ <b>Galeria</b></a>
+      <a href="../contact/contact.html">📧 <b>Kontakta</b></a>
+    </nav>
+
+    <main>
+      <section class="contact">
+        <h1>Kontakt</h1>
+        <form id="form">
+          <label for="email"> Email: </label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Podaj swój e-mail"
+            pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+            required
+          />
+
+          <label for="temat"> Temat wiadomości: </label>
+          <select id="temat" required>
+            <option value="">Wybierz temat</option>
+            <option value="film">Propozycja filmu</option>
+            <option value="problem">Zgloszenie problemu</option>
+          </select>
+
+          <label for="tresc">Treść wiadomości</label>
+          <textarea
+            id="tresc"
+            placeholder="Napisz wiadomość"
+            minlength="5"
+            required
+          ></textarea>
+
+          <input type="submit" value="Wyślij" />
+
+          <p id="status">Status</p>
+
+          <p id="licznik">Licznik</p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Kacper Polski</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
